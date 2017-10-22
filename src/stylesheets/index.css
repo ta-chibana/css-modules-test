@@ -1,0 +1,9 @@
+.pageTitle {
+  color: #FF0000
+}
+
+@media (max-width: 600px) {
+  .pageTitle {
+    color: #0000FF;
+  }
+}

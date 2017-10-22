@@ -1,4 +1,6 @@
 import React from 'react'
+import * as styles from '../stylesheets/index.css'
+import * as other from '../stylesheets/other.css'
 
 interface IArticleProps {
   title: string
@@ -6,7 +8,7 @@ interface IArticleProps {
 
 const Article = (props: IArticleProps) => {
   return (
-    <div>
+    <div className={`${styles.pageTitle} ${other.titleSize}`}>
       {props.title}
     </div>
   )

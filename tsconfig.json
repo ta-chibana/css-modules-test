@@ -4,7 +4,7 @@
     "allowSyntheticDefaultImports": true,
     "noImplicitThis": true,
     "alwaysStrict": true,
-    "moduleResolution": "ES2015",
+    "module": "ES2015",
     "outDir": "./lib/",
     "sourceMap": true,
     "noImplicitAny": true,
