@@ -1,14 +1,8 @@
-const path = require('path');
-const ExtractTextPlugin = require('extract-text-webpack-plugin')
+const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 module.exports = {
-  entry: path.resolve(__dirname, 'examples/src/index.tsx'),
-  output: {
-    path: path.resolve(__dirname, 'examples/dist/'),
-    filename: 'index.js',
-    publicPath: '/assets/'
-  },
-  devtool: 'inline-source-map',
+  entry: undefined,
+  output: undefined,
   resolve: {
     extensions: ['.ts', '.tsx', '.js']
   },
@@ -31,8 +25,5 @@ module.exports = {
   },
   plugins: [
     new ExtractTextPlugin("./css/styles.css")
-  ],
-  devServer: {
-    contentBase: path.resolve(__dirname, 'examples/dist/')
-  }
+  ]
 };

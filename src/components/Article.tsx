@@ -7,7 +7,6 @@ interface IArticleProps {
 }
 
 const Article = (props: IArticleProps) => {
-  console.log(styles)
   return (
     <div>
       <div className={`${styles.pageTitle} ${other.titleSize}`}>
