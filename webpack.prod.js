@@ -7,7 +7,6 @@ module.exports = merge(common, {
   output: {
     path: path.resolve(__dirname, 'lib/'),
     filename: 'index.js',
-    library: 'CSSModulesTest',
     libraryTarget: 'commonjs'
   }
 });
