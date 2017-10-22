@@ -6,6 +6,8 @@ module.exports = merge(common, {
   entry: path.resolve(__dirname, 'src/index.ts'),
   output: {
     path: path.resolve(__dirname, 'lib/'),
-    filename: 'index.js'
+    filename: 'index.js',
+    library: 'CSSModulesTest',
+    libraryTarget: 'commonjs'
   }
 });
