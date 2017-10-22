@@ -2,6 +2,10 @@
   color: #FF0000
 }
 
+.bem-style__class {
+  font-size: 15px
+}
+
 @media (max-width: 600px) {
   .pageTitle {
     color: #0000FF;

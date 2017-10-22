@@ -7,7 +7,7 @@
   "scripts": {
     "start": "webpack-dev-server",
     "build": "rollup -c",
-    "tcm": "tcm src"
+    "tcm": "tcm src --camelCase"
   },
   "dependencies": {
     "react": "^16.0.0",
