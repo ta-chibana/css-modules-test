@@ -30,7 +30,7 @@ module.exports = {
     ]
   },
   plugins: [
-    new ExtractTextPlugin("./styles.css")
+    new ExtractTextPlugin("./css/styles.css")
   ],
   devServer: {
     contentBase: path.resolve(__dirname, 'examples/dist/')

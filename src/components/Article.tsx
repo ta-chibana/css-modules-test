@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from '../stylesheets/index.css'
+import styles from '../stylesheets/style.css'
 import other from '../stylesheets/other.css'
 
 interface IArticleProps {
