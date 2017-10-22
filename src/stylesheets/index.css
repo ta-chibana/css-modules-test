@@ -1,5 +1,7 @@
+@value colorRed #FF0000;
+
 .pageTitle {
-  color: #FF0000
+  color: colorRed
 }
 
 .bem-style__class {
